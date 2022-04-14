@@ -1,4 +1,4 @@
-package exercises;
+package exercises.ch1_2;
 import java.util.Scanner;
 
 public class askName {

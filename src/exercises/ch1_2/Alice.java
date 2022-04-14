@@ -1,4 +1,4 @@
-package exercises;
+package exercises.ch1_2;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class Alice {
         word = word.toLowerCase();
         boolean contains = alice.contains(word);
         System.out.println("Contains word: " + contains);
-        if(contains){
+        if(contains) {
             int index = alice.indexOf(word);
             String newAlice = alice.replace(word, "");
             System.out.println("Index of word: " + index);
