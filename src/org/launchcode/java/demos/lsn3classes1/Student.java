@@ -10,4 +10,28 @@ public class Student {
     private int numberOfCredits = 0;
     private double gpa = 0.0;
 
+    String getName(){
+        return name;
+    }
+    int getStudentId(){
+        return studentId;
+    }
+    int getNumberOfCredits(){
+        return numberOfCredits;
+    }
+    double getGpa(){
+        return gpa;
+    }
+    void setName(String aName){
+        name = aName;
+    }
+    void setStudentId(int aStudentId){
+        studentId = aStudentId;
+    }
+    void setNumberOfCredits(int aNumberOfCredits){
+        numberOfCredits = aNumberOfCredits;
+    }
+    void setGpa(double aGpa){
+        gpa = aGpa;
+    }
 }

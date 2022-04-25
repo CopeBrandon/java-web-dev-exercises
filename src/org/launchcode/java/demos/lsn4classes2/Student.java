@@ -37,6 +37,8 @@ public class Student {
     // TODO: Complete the addGrade method.
     public void addGrade(int courseCredits, double grade) {
         // Update the appropriate fields: numberOfCredits, gpa
+        this.numberOfCredits = courseCredits;
+        this.gpa = grade;
     }
 
     // TODO: Add your custom 'toString' method here. Make sure it returns a well-formatted String rather
